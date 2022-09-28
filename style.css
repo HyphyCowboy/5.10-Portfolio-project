@@ -1,10 +1,12 @@
 body {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: px;
+    margin-right: px;
     font-family: Arial, sans-serif;
-    padding: 0 25%;
+    padding: 0 0%;
   }
   
+  
+
   header {
       height: 80px;
       background-color: #e5d2c2;
@@ -22,6 +24,12 @@ body {
       background-color: #d5c0ae;
   }
   
+  section {
+    padding: 0 25%;
+    margin: 80px 0;
+  }
+  
+
   h1, h2, h3 {
     font-family:  sans-serif;
       color: #ae590f;
@@ -69,4 +77,9 @@ body {
       text-align: center;
     padding: 30px;
     margin: 0;
+  }
+
+  .border-top {
+    padding-top: 80px;
+    border-top: 2px solid #403933;
   }
